@@ -1,11 +1,15 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 from pathlib import Path
+
+this_dir = Path(__file__).parent
+long_desc = (this_dir / 'README.md').read_text()
 
 setup(
 	name='pytest-assertcount',
-	version='0.0.1',
+	version='0.0.3',
 	description='Plugin to count actual number of asserts in pytest',
-	longdescription=Path(__file__).resolve().parent.joinpath('README.md').read_text(),
+	long_description=long_desc,
+	long_description_content_type='text/markdown',
 	classifiers=[
 		'Intended Audience :: Developers',
 		'License :: OSI Approved :: MIT License',

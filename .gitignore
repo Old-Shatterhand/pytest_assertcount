@@ -1,0 +1,4 @@
+/dist/
+/dist/pytest-assertcount-0.0.3.tar.gz
+/pytest_assertcount.egg-info/
+.idea/
