@@ -2,7 +2,18 @@
 
 A pytest plugin to count the actual number of asserts in a pytest run.
 
-### Output
+## Installation
+
+The package is available on the python package index and can be installed using
+``````shell
+pip install pytest_assertcount
+``````
+and it can be updated using
+``````shell
+pip install --upgrade pytest_assertcount
+``````
+
+## Output
 
 The output will be shown as the second last result in the pytest output, right above ````short test summary info````.<br>
 Example:
@@ -16,7 +27,7 @@ failed asserts: 0 (0%)
 ...
 ```
 
-### Restrictions
+## Restrictions
 
 This plugin to only able to count "non-trivial" asserts, so
 ````python
@@ -28,4 +39,4 @@ assert 2*3 == 10
 ````
 would not be counted, as it's a pointless assert.
 
-Furthermore, only asserts in the ````test_XYZ.py```` files will be counted.
+Furthermore, only asserts in the test files will be counted. Asserts in external files with functions called during testing are not counted.
