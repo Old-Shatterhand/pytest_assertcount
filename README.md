@@ -1,3 +1,5 @@
+![piwheels](https://img.shields.io/piwheels/v/pytest_assertcount) ![PyPI - Downloads](https://img.shields.io/pypi/dm/pytest_assertcount)
+
 # AssertCount
 
 A pytest plugin to count the actual number of asserts in a pytest run.
