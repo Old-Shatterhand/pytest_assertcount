@@ -1,4 +1,4 @@
-![piwheels](https://img.shields.io/piwheels/v/pytest_assertcount) ![PyPI - Downloads](https://img.shields.io/pypi/dm/pytest_assertcount)
+<!--![piwheels](https://img.shields.io/piwheels/v/pytest_assertcount) ![PyPI - Downloads](https://img.shields.io/pypi/dm/pytest_assertcount)-->
 
 # AssertCount
 
